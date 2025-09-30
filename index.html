@@ -1,1 +1,718 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ismail Mahamat Ismail</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#accueil">IsmailPortfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a href="#parcours" class="nav-link">Parcours</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="typing-container">
+                        <h1>Bonjour, je suis <span class="highlight">Ismail Mahamat Ismail</span></h1>
+                    </div>
+                    <p class="fade-in delay-1">Développeur Web et Mobile Fullstack passionné par la création de solutions numériques innovantes.</p>
+                    <div class="hero-buttons fade-in delay-2">
+                        <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="avatar floating">
+                        <img src="image/img2.png" alt="Photo de Ismail Mahamat Ismail">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Découvrir</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="about" id="apropos">
+        <div class="container">
+            <h2 class="section-title fade-in">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in delay-1">Je suis étudiant en deuxième année d'Informatique Appliquée à la Gestion, spécialisé en développement Web et Mobile Fullstack. Passionné par les technologies modernes, je maîtrise JavaScript, React, Node.js et je développe constamment mes compétences.</p>
+                    <p class="fade-in delay-2">Formé par Simplon Wenaklabs en partenariat avec l'Ambassade de France au Tchad, j'ai eu l'opportunité de travailler sur divers projets incluant des applications web, des applications mobiles et des systèmes de gestion.</p>
+                </div>
+                <div class="about-skills fade-in delay-3">
+                    <h3>Compétences</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets récents -->
+    <section class="projects-preview" id="projets">
+        <div class="container">
+            <h2 class="section-title fade-in">Projets Récents</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in delay-1">
+                    <div class="project-image">
+                        <img src="image/cal1.png" alt="Mini Calculatrice">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mini Calculatrice</h3>
+                        <p>Application web de calculatrice développée avec HTML, CSS et JavaScript.</p>
+                        <a href="image/cal2.png" class="btn btn-outline">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in delay-2">
+                    <div class="project-image">
+                        <img src="image/img1.png" alt="Générateur de Groupe">
+                    </div>
+                    <div class="project-info">
+                        <h3>Générateur de Groupe</h3>
+                        <p>Outil pour créer des groupes aléatoires avec différentes configurations.</p>
+                        <a href="image/img1.png" class="btn btn-outline">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in delay-3">
+                    <div class="project-image">
+                        <img src="image/img3.png" alt="Application de Chat">
+                    </div>
+                    <div class="project-info">
+                        <h3>Application de Chat</h3>
+                        <p>Application de messagerie en temps réel avec interface utilisateur intuitive.</p>
+                        <a href="#projet-chat" class="btn btn-outline">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Détails des projets -->
+    <section class="projects-details">
+        <div class="container">
+            <!-- Projet Calculatrice -->
+            <div class="project-detail" id="projet-calculatrice">
+                <h2 class="section-title">Mini Calculatrice</h2>
+                <div class="project-content">
+                    <div class="project-image-large">
+                        <img src="image/img4.png" alt="Mini Calculatrice">
+                    </div>
+                    <div class="project-description">
+                        <h3>Description du projet</h3>
+                        <p>Application web de calculatrice développée avec HTML, CSS et JavaScript. Elle inclut les opérations de base et des fonctions avancées.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Voir le code source</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet Générateur -->
+            <div class="project-detail" id="projet-generateur">
+                <h2 class="section-title">Générateur de Groupe</h2>
+                <div class="project-content">
+                    <div class="project-image-large">
+                        <img src="image/img5.png" alt="Générateur de Groupe">
+                    </div>
+                    <div class="project-description">
+                        <h3>Description du projet</h3>
+                        <p>Outil développé pour créer des groupes aléatoires à partir d'une liste de participants avec différentes configurations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Voir le code source</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet Chat -->
+            <div class="project-detail" id="projet-chat">
+                <h2 class="section-title">Application de Chat</h2>
+                <div class="project-content">
+                    <div class="project-image-large">
+                        <img src="image/img2.png" alt="Application de Chat">
+                    </div>
+                    <div class="project-description">
+                        <h3>Description du projet</h3>
+                        <p>Application de messagerie en temps réel avec interface utilisateur intuitive et fonctionnalités avancées.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Voir le code source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours -->
+    <section class="timeline-section" id="parcours">
+        <div class="container">
+            <h2 class="section-title fade-in">Mon Parcours</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in delay-1">
+                    <div class="timeline-date">2025 - Présent</div>
+                    <div class="timeline-content">
+                        <h3>Formation Développeur Web et Mobile Fullstack</h3>
+                        <p>Simplon Wenaklabs - Ambassade de France au Tchad</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in delay-2">
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Troisième année Informatique Appliquée à la Gestion</h3>
+                        <p>Spécialisation en développement d'applications web et mobiles</p>
+                    </div>
+                </div> <div class="timeline-item fade-in delay-2">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Deuxième année Informatique Appliquée à la Gestion</h3>
+                        <p>Spécialisation en développement d'applications web et mobiles</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in delay-3">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Première année Informatique Appliquée à la Gestion</h3>
+                        <p>Introduction aux bases de la programmation et des systèmes d'information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in delay-1">
+                    <h2>Informations de contact</h2>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>ismail@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Téléphone</h3>
+                        <p>+235 XX XX XX XX</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Localisation</h3>
+                        <p>Tchad</p>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Réseaux sociaux</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-btn">GitHub</a>
+                            <a href="#" class="social-btn">LinkedIn</a>
+                            <a href="#" class="social-btn">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container fade-in delay-2">
+                    <h2>Envoyez-moi un message</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+                    </form>
+                    <div id="form-success" class="form-success hidden">
+                        <p>Merci ! Votre message a été envoyé avec succès. Je vous répondrai dans les plus brefs délais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title fade-in">Questions fréquentes</h2>
+            <div class="faq-list">
+                <div class="faq-item fade-in delay-1">
+                    <div class="faq-question">
+                        <h3>Quels types de projets acceptez-vous ?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Je suis ouvert à différents types de projets, notamment le développement d'applications web, la création de sites vitrines, le développement d'applications mobiles et les projets liés à JavaScript, React et Node.js.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in delay-2">
+                    <div class="faq-question">
+                        <h3>Quel est votre délai de réponse ?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Je m'efforce de répondre à tous les messages dans un délai de 24 à 48 heures. Pour les demandes urgentes, veuillez l'indiquer dans l'objet de votre message.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in delay-3">
+                    <div class="faq-question">
+                        <h3>Proposez-vous des services de maintenance ?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, je propose des services de maintenance et de support pour les projets que j'ai développés. N'hésitez pas à me contacter pour discuter de vos besoins spécifiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>IsmailPortfolio</h3>
+                    <p>Étudiant en Informatique Appliquée à la Gestion, Développeur Web et Mobile Fullstack</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Réseaux sociaux</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ismail Mahamat Ismail. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Configuration globale
+        const CONFIG = {
+            animationThreshold: 0.1,
+            scrollOffset: 0.5,
+            welcomeAnimationInterval: 10000
+        };
+
+        // Gestionnaire d'état de l'application
+        const AppState = {
+            isMenuOpen: false,
+            currentTheme: localStorage.getItem('theme') || 'light'
+        };
+
+        // Initialisation de l'application
+        function initApp() {
+            initNavigation();
+            initTheme();
+            initAnimations();
+            initContactForm();
+            initFAQ();
+            initWelcomeAnimation();
+        }
+
+        // Navigation et menu burger
+        function initNavigation() {
+            const navToggle = document.getElementById('nav-toggle');
+            const navMenu = document.getElementById('nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            // Menu burger
+            if (navToggle && navMenu) {
+                navToggle.addEventListener('click', () => {
+                    AppState.isMenuOpen = !AppState.isMenuOpen;
+                    navMenu.classList.toggle('active');
+                    navToggle.classList.toggle('active');
+                });
+            }
+
+            // Fermer le menu mobile en cliquant sur un lien
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (AppState.isMenuOpen) {
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('active');
+                        AppState.isMenuOpen = false;
+                    }
+                });
+            });
+
+            // Navigation active basée sur le défilement
+            initActiveNavigation();
+        }
+
+        // Navigation active
+        function initActiveNavigation() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { threshold: CONFIG.scrollOffset });
+
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Gestion du thème
+        function initTheme() {
+            const themeToggle = document.createElement('div');
+            themeToggle.className = 'theme-toggle';
+            themeToggle.innerHTML = AppState.currentTheme === 'dark' ? '☀️' : '🌙';
+            document.body.appendChild(themeToggle);
+
+            // Appliquer le thème sauvegardé
+            if (AppState.currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            // Basculer le thème
+            themeToggle.addEventListener('click', toggleTheme);
+        }
+
+        function toggleTheme() {
+            const themeToggle = document.querySelector('.theme-toggle');
+            document.body.classList.toggle('dark-mode');
+            
+            if (document.body.classList.contains('dark-mode')) {
+                themeToggle.innerHTML = '☀️';
+                localStorage.setItem('theme', 'dark');
+                AppState.currentTheme = 'dark';
+            } else {
+                themeToggle.innerHTML = '🌙';
+                localStorage.setItem('theme', 'light');
+                AppState.currentTheme = 'light';
+            }
+        }
+
+        // Animations
+        function initAnimations() {
+            initScrollAnimations();
+            initSkillsAnimation();
+            initNavbarScrollEffect();
+        }
+
+        function initScrollAnimations() {
+            const observerOptions = {
+                threshold: CONFIG.animationThreshold,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                        
+                        // Animation spécifique pour les compétences
+                        if (entry.target.classList.contains('about')) {
+                            animateSkills();
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            const animateElements = document.querySelectorAll(
+                '.project-card, .timeline-item, .skill-item, .contact-item, .contact-form-container, .section-title, .about-text p, .faq-item'
+            );
+            
+            animateElements.forEach(el => observer.observe(el));
+        }
+
+        function initSkillsAnimation() {
+            const skillsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateSkills();
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            const skillsSection = document.querySelector('.about');
+            if (skillsSection) {
+                skillsObserver.observe(skillsSection);
+            }
+        }
+
+        function animateSkills() {
+            const skillLevels = document.querySelectorAll('.skill-level');
+            
+            skillLevels.forEach(skill => {
+                const level = skill.getAttribute('data-level');
+                skill.style.width = level + '%';
+            });
+        }
+
+        function initNavbarScrollEffect() {
+            window.addEventListener('scroll', () => {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // Animation du texte de bienvenue
+        function initWelcomeAnimation() {
+            const typingContainer = document.querySelector('.typing-container');
+            const nameElement = document.querySelector('.highlight');
+            
+            if (typingContainer && nameElement) {
+                resetWelcomeAnimation(typingContainer, nameElement);
+                
+                // Réanimer périodiquement
+                setInterval(() => {
+                    resetWelcomeAnimation(typingContainer, nameElement);
+                }, CONFIG.welcomeAnimationInterval);
+            }
+        }
+
+        function resetWelcomeAnimation(typingContainer, nameElement) {
+            // Réinitialiser l'animation de frappe
+            typingContainer.style.animation = 'none';
+            setTimeout(() => {
+                typingContainer.style.animation = 'typing 3.5s steps(40, end), blink 1s step-end infinite';
+            }, 10);
+        }
+
+        // Formulaire de contact
+        function initContactForm() {
+            const contactForm = document.getElementById('contact-form');
+            const formSuccess = document.getElementById('form-success');
+
+            if (contactForm && formSuccess) {
+                contactForm.addEventListener('submit', handleContactFormSubmit);
+            }
+        }
+
+        function handleContactFormSubmit(e) {
+            e.preventDefault();
+            
+            if (validateContactForm()) {
+                simulateFormSubmission();
+            }
+        }
+
+        function validateContactForm() {
+            const fields = [
+                { id: 'name', errorId: 'name-error', validator: value => value.trim() !== '' },
+                { id: 'email', errorId: 'email-error', validator: value => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) },
+                { id: 'subject', errorId: 'subject-error', validator: value => value.trim() !== '' },
+                { id: 'message', errorId: 'message-error', validator: value => value.trim() !== '' }
+            ];
+
+            let isValid = true;
+
+            // Réinitialiser les messages d'erreur
+            document.querySelectorAll('.error-message').forEach(msg => {
+                msg.textContent = '';
+            });
+
+            // Valider chaque champ
+            fields.forEach(field => {
+                const element = document.getElementById(field.id);
+                const errorElement = document.getElementById(field.errorId);
+                
+                if (!field.validator(element.value)) {
+                    errorElement.textContent = getErrorMessage(field.id);
+                    isValid = false;
+                }
+            });
+
+            return isValid;
+        }
+
+        function getErrorMessage(fieldId) {
+            const messages = {
+                'name': 'Le nom est requis',
+                'email': 'Format d\'email invalide',
+                'subject': 'Le sujet est requis',
+                'message': 'Le message est requis'
+            };
+            return messages[fieldId] || 'Champ invalide';
+        }
+
+        function simulateFormSubmission() {
+            const contactForm = document.getElementById('contact-form');
+            const formSuccess = document.getElementById('form-success');
+
+            setTimeout(() => {
+                contactForm.reset();
+                contactForm.classList.add('hidden');
+                formSuccess.classList.remove('hidden');
+                
+                setTimeout(() => {
+                    formSuccess.classList.add('hidden');
+                    contactForm.classList.remove('hidden');
+                }, 5000);
+            }, 1000);
+        }
+
+        // FAQ Accordéon
+        function initFAQ() {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                question.addEventListener('click', () => toggleFAQItem(item, faqItems));
+            });
+        }
+
+        function toggleFAQItem(activeItem, allItems) {
+            // Fermer tous les autres éléments
+            allItems.forEach(item => {
+                if (item !== activeItem) {
+                    item.classList.remove('active');
+                }
+            });
+            
+            // Basculer l'élément actuel
+            activeItem.classList.toggle('active');
+        }
+
+        // Ajout des styles CSS pour les animations
+        function injectAnimationStyles() {
+            const style = document.createElement('style');
+            style.textContent = `
+                .project-card, .timeline-item, .skill-item, .contact-item, .contact-form-container, .faq-item {
+                    opacity: 0;
+                    transform: translateY(20px);
+                    transition: opacity 0.5s ease, transform 0.5s ease;
+                }
+                
+                .project-card.animate-in, 
+                .timeline-item.animate-in, 
+                .skill-item.animate-in,
+                .contact-item.animate-in,
+                .contact-form-container.animate-in,
+                .faq-item.animate-in {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+                
+                /* Délais d'animation */
+                .project-card:nth-child(1) { transition-delay: 0.1s; }
+                .project-card:nth-child(2) { transition-delay: 0.2s; }
+                .project-card:nth-child(3) { transition-delay: 0.3s; }
+                
+                .timeline-item:nth-child(1) { transition-delay: 0.1s; }
+                .timeline-item:nth-child(2) { transition-delay: 0.2s; }
+                .timeline-item:nth-child(3) { transition-delay: 0.3s; }
+                
+                .skill-item:nth-child(1) { transition-delay: 0.1s; }
+                .skill-item:nth-child(2) { transition-delay: 0.2s; }
+                .skill-item:nth-child(3) { transition-delay: 0.3s; }
+                .skill-item:nth-child(4) { transition-delay: 0.4s; }
+                
+                .contact-item:nth-child(1) { transition-delay: 0.1s; }
+                .contact-item:nth-child(2) { transition-delay: 0.2s; }
+                .contact-item:nth-child(3) { transition-delay: 0.3s; }
+                .contact-form-container { transition-delay: 0.4s; }
+                
+                .faq-item:nth-child(1) { transition-delay: 0.1s; }
+                .faq-item:nth-child(2) { transition-delay: 0.2s; }
+                .faq-item:nth-child(3) { transition-delay: 0.3s; }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // Initialisation au chargement du DOM
+        document.addEventListener('DOMContentLoaded', () => {
+            injectAnimationStyles();
+            initApp();
+        });
+    </script>
+</body>
+</html>
