@@ -117,16 +117,11 @@ Aller dans Settings > Pages
 
 Sélectionner la branche main
 
-Le site sera disponible à : https://votre-username.github.io/votre-repo
-
-📞 Contact
-Email: ismail@example.com
-
-Téléphone: +235 XX XX XX XX
+Le site sera disponible à :  https://ismailmahamat315.github.io/Mon-portfolio/
 
 Localisation: Tchad
 
-GitHub: @votre-username
+
 
 📄 Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
